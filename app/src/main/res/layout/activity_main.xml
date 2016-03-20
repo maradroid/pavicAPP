@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    >
+
+    <!-- Layout prve osobe -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="50"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <!-- ime prve osobe -->
+
+        <TextView
+            android:id="@+id/first_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="dfvdfvdscsdcsdcsdcsdcsdcsdcsdcsdcsdcsdc"/>
+
+        <!-- prezime prve osobe -->
+
+        <TextView
+            android:id="@+id/first_surname_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="fdfvdf"/>
+
+        <!-- rodendan prve osobe -->
+
+        <TextView
+            android:id="@+id/first_birthday_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="fdvdfvd"/>
+
+        <!-- biografija prve osobe -->
+
+        <TextView
+            android:id="@+id/first_bio_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="dfvdfv"/>
+
+    </LinearLayout>
+
+    <!-- Layout druge osobe -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="50"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <!-- ime druge osobe -->
+
+        <TextView
+            android:id="@+id/second_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="dfvdfd"/>
+
+        <!-- prezime druge osobe -->
+
+        <TextView
+            android:id="@+id/second_surname_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="fdvdf"/>
+
+        <!-- rodendan druge osobe -->
+
+        <TextView
+            android:id="@+id/second_birthday_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="dfvdfv"/>
+
+        <!-- biografija druge osobe -->
+
+        <TextView
+            android:id="@+id/second_bio_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="dfvdfd"/>
+    </LinearLayout>
+
+
+</LinearLayout>
